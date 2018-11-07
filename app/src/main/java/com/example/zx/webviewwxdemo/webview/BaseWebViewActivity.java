@@ -14,8 +14,6 @@ public abstract class BaseWebViewActivity extends Activity{
 
     private File cameraCache;
     /**
-     * 当使用
-     * firstp2p://api?type=webview&gobackrefresh=true&url=xxxx
      * 进行H5跳转的时候,某些场景需要再次回到次页面时,此页面要刷新
      * 如:强制评测.
      * 所以这里有一个状态,当这个状态为true的时候,在onstart生命周期则会reload一次webview

@@ -3,10 +3,6 @@ package com.example.zx.webviewwxdemo;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-/**
- * URL通配工具
- * Created by mik_eddy on 16/8/15.
- */
 public class MathUrlUtil {
     /**
      * token类型:

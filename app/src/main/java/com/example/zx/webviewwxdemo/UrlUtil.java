@@ -2,7 +2,6 @@ package com.example.zx.webviewwxdemo;
 
 import android.net.Uri;
 import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
@@ -11,7 +10,6 @@ import java.util.Set;
 
 /**
  * *讲URL分解，属性名与值按照键值对的形式存入urlElementsMap中
- * https://test03.api.firstp2plocal.com/deal/confirm?id=8693&code=&token=0d48f74dd215dca4e10e0952af88cf8d58230b46e1af9f5c952f334d3efac17b&signature=9EB761AE9CA96AE3C2235C607FEEB13D
  */
 public class UrlUtil {
     MathUrlUtil mathUtil;
